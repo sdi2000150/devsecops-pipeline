@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'appsecco/dvna:sqlite' # THIS NEEDS TO BE CHANGED BY ME TEO
+          default: 'teomor2002/sdi2000150:latest' # THIS IS MY CUSTOM CREATED IMAGE
 
 # env:
 #   REGISTRY: ghcr.io
