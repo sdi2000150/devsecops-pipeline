@@ -6,7 +6,7 @@ StudentID: **sdi2000150** (1115202000150)
 
 For this homework, I created a custom Docker image to scan for vulnerabilities. Here's the detailed process:
 
-### 1. Creating the Custom Docker Image
+## 1. Creating the Custom Docker Image
 
 1. First, I created a simple C program (`sdi2000150.c`):
     ```c
@@ -44,7 +44,7 @@ For this homework, I created a custom Docker image to scan for vulnerabilities. 
     docker push teomor2002/sdi2000150:latest
     ```
 
-### 2. Setting up GitHub Actions Pipeline
+## 2. Setting up GitHub Actions Pipeline
 
 1. Created a public repository `sdi2000150/devsecops-pipeline`
 2. Set up DockerHub authentication:
